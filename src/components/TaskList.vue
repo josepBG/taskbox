@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PureTaskList from './PureTaskList'
+import PureTaskList from './PureTaskList.vue'
 import { mapActions, mapState } from 'vuex'
 
 export default {
