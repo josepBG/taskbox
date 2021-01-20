@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <task-list />
   </div>
 </template>
 
 <script>
+import store from './store'
+import TaskList from './components/TaskList.vue'
+
 export default {
   name: 'App',
-  components: {},
+  store,
+  components: { TaskList },
 }
 </script>
 
